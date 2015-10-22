@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#FFFFEE"
+        >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Page1_r1c1"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/showList"
+                android:background="#FF8888"
+                android:padding="5dp"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Page1_r1c2"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/addToList"
+                android:background="#FF6666"
+                android:padding="5dp"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Page1_r1c3"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/clearItems"
+                android:background="#FF4444"
+                android:padding="5dp"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/Page1_r1c4"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:id="@+id/profile"
+                android:background="#FF2222"
+                android:padding="5dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+    </LinearLayout>
+</LinearLayout>
+

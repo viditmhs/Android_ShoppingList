@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">shoppinglist</string>
+    <string name="Page1_r1c1">Show List</string>
+    <string name="Page1_r1c2">Add To List</string>
+    <string name="Page1_r1c3">Clear Items</string>
+    <string name="Page1_r1c4">Profile</string>
+    <string name="Page_R1C3_1">Clear All Items</string>
+</resources>
